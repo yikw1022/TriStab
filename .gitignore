@@ -1,0 +1,35 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local env files
+.env
+.venv/
+venv/
+env/
+.conda/
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Hydra / training outputs
+logs/
+outputs/
+multirun/
+config_tree.log
+
+# Model checkpoints and weights
+checkpoint/
+*.ckpt
+*.pt
+*.pth
+
+# Large local datasets
+data/dataset/
+data/checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
