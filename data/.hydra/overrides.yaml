@@ -1,0 +1,5 @@
+- +experiment=hyperppn_lite_oetr_r1
+- name=3.22train/R1/R15_td0.5_wd0.05
+- model.triadic_dropout=0.5
+- task.optimizer.weight_decay=0.05
+- callbacks.model_checkpoint.dirpath=/home/mnt/cxz/code/Venus/_OPERA/logs/3.22train/R1/R15_td0.5_wd0.05/checkpoints
