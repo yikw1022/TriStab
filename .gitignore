@@ -27,8 +27,9 @@ checkpoint/
 *.pth
 
 # Large local datasets
-data/dataset/
 data/checkpoints/
+# Single 666MB CSV exceeds GitHub's 100MB/file limit — hosted externally
+data/dataset/megascale/Tsuboyama2023_Dataset2_Dataset3_20230416.csv
 
 # OS files
 .DS_Store
