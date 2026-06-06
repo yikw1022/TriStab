@@ -1,6 +1,5 @@
 # TriStab
 
-English | [中文](README.zh-CN.md)
 
 Official code for "Predicting mutation-induced protein stability changes from single sequences via triadic message passing".
 
